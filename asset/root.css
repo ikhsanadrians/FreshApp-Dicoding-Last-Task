@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Dela+Gothic+One&family=Koulen&family=Lato:ital@1&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@700&family=Permanent+Marker&family=Raleway:wght@600&family=Red+Hat+Mono:wght@500&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@400;500;600&family=Smooch+Sans&family=Ubuntu:wght@500&display=swap');
+
+
+* {
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   font-family: 'Rubik', sans-serif;
+
+
+
+}
+
+.jumbotron {
+  max-height: 120px;
+  max-width: 120px;
+  overflow : hidden;
+}
+
+
+header > img {
+    height: 100%;
+    width : 100%;
+    object-fit: cover;
+    position : absolute;
+    z-index : -4;
+    margin-top : -100px;
+    filter: grayscale(31%) brightness(53%) contrast(113%);
+-webkit-filter: grayscale(31%) brightness(53%) contrast(113%);
+-moz-filter: grayscale(31%) brightness(53%) contrast(113%);
+}
+
+
+.menu {
+    display : flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
+    justify-self: flex-end;
+    margin-right: 10%;
+    margin-top : 40px;
+}
+.menu > li > a {
+    color : white;
+    margin-left : 50px;
+   
+}
+
+
+
+
+.menu > li > a:visited {
+    color : white;
+}
+
+ul > .title {
+    display : flex;
+    margin-left: 10%;
+    align-items: flex-start;
+    justify-items: flex-start;
+    align-self : flex-start;
+    justify-self: flex-start;
+    color : white;
+    font-size : 1.6rem;
+    margin-top : -10px;
+    position: absolute;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+     letter-spacing: 2px;
+
+}
+
+
+aside {
+
+ margin-left : 30px;
+ 
+}
+
+
+
+.aboutme {
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border : 1px solid  rgb(203 213 225);
+    width : 300px;
+    height : 400px;
+    padding-top :20px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.aboutme > .title > h1 {
+    text-align: center;
+}
+
+.image > img {
+    height : 140px;
+    display : flex;
+    
+}
+
+
+.titleandimg {
+    margin-top : -100px;
+}
+
+.description {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 150px;
+    flex-direction: column;
+   
+}
+
+
+.selfdesc {
+    margin-top : 20px;
+}
+
+.image {
+    margin-top : 20px;
+}
+
+.description .title-description {
+    color : white;
+    font-size: 4rem;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.description .content-description {
+    color : white;
+    font-family: 'Rubik',sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top : 15px;
+}
+
+.article {
+    display : inline-block;
+}
+
+
+main {
+    display :flex;
+    margin-top : 300px;
+}
+
+
+.kosong {
+    margin-bottom: 900px;
+}
+
+
+
+section {
+   justify-content: center;
+   
+   
+}
+
+section > article {
+    margin-left : 50px;
+}
+
+ .article-title {
+    font-size: 40px;
+}
+
+.lines {
+  margin-left : 40px;
+    height : 950px;
+    margin-top : -100px;
+    z-index :-90;
+    width: 1.3px;
+    background-color:  rgb(209 213 219);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+
+
+  }
+
+  .articlesheader {
+    display : flex;
+  }
+  
+  .articlesheader > span {
+    margin-left : 10px;
+  }
+
+
+  .restaurant-card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 1px 10px -40px;
+    border : 1px solid  rgb(203 213 225);
+    height : 350px;
+    width : 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left : 10px;
+    margin-top : 10px;
+  }
+
+  .restaurant-image > img {
+    height : 195px;
+  }
+  
+  .restauran-description {
+    padding : 10px;
+  }
+
+  
+  .restauran-info {
+    padding : 3px;
+    display : flex;
+  }
+
+  .restaurantall {
+    display : flex;
+    flex-wrap: wrap;
+    margin-top : 10px;
+  }
+
+  .location {
+    height : 28px;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin-left:4px;
+    max-width : 100px;
+    padding-left: 5px;
+    padding-right: 10px;
+    color : white;
+    background-color: rgb(45, 155, 100);
+   display : flex;
+  }
+
+  .location p {
+    padding-top : 4px;
+  }
+
+  .rating {
+    height : 28px;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin-left:4px;
+    max-width : 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color : white;
+    background-color: rgb(223, 163, 0);
+   display : flex;
+  }
+
+  .rating p {
+    padding-top : 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .selengkapnya {
+    margin-top : 25px;
+    margin-left: 10px;
+  }
+
+  .horizontallines {
+    height : 1.3px;
+    width : 100%;
+    background-color:  rgb(209 213 219);
+  }
+
+
+  .userreview {
+    display : flex;
+    justify-content: center;
+    margin-top : 0px;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+ .alluserreviewcard {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+
+ @media screen and (max-width: 600px) {
+  aside {
+    display : none;
+  }
+
+  .menu {
+    visibility: hidden;
+  }
+
+  .description .title-description {
+    font-size: 40px;
+  } 
+
+  .description .content-description {
+   font-size : 30px;
+   margin-left: 5%;
+  }
+
+ }
+
+
+ .testi-card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 1px 10px -40px;
+    border : 1px solid  rgb(203 213 225);
+    max-height : 300px;
+    padding-bottom: 10px;
+    width : 330px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left : 10px;
+    margin-top : 20px;
+
+  }
+
+  .role {
+    color : rgb(103, 103, 241);
+  }
+
+  .userreview-title {
+    color: rgb(68 64 60);
+  }
+
+
+  .testi-userimage{
+    height : 90px;
+    overflow  : hidden;
+    border-radius: 20px;
+    justify-content: center;
+    display : flex;
+    margin-top : 10px;
+  }
+
+  
+  .testi-userimage > img{
+    height : 90px;
+   
+  }
+
+  .title-user-testi {
+    font-size: 20px;
+   
+   
+  }
+
+  .testi-description {
+    text-align: center;
+    justify-content: center;
+  }
+
+
+.footer {
+  height  : 300px;
+  width:  100%;
+  background-color: rgb(14, 11, 5);
+  color : white;
+  display :flex;
+  flex-direction: row;
+  padding-top :40px;
+  font-family : 'Ubuntu',sans-serif;
+}
+
+
+.footer-title {
+  align-items: flex-end;
+  flex : 1;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-left: 40px;
+}
+
+
+.footeraddon {
+  display : flex;
+  flex : 0.25;
+  margin-top : 12px;
+  flex-direction: column;
+}
+
+
+.footeraddon > hr {
+  margin-right: 46px;
+}
+
+.footeraddon :nth-child(1) {
+  margin-bottom : 10px;
+}
+
+.footeraddon :nth-child(3) {
+  margin-top: 10px;
+}
